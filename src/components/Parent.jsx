@@ -29,8 +29,8 @@ const data=[
 return (
     <div>
         <Table data={data} c={counter} />
-        <button onClick={()=>setcounter(counter+1)}>increment</button>
-        <button onClick={()=>setcounter(counter-1)}>decrement</button>
+        <button onClick={()=>setcounter(counter<data.length-1? counter+1 : counter)}>increment</button>
+        <button onClick={()=>setcounter(counter>0?counter-1:counter)}>decrement</button>
     </div>
 )
     
