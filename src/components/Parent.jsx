@@ -8,6 +8,12 @@ const data=[
     "name":"GMIT",
     "ID":1
 },
+
+{
+
+    "name":"SIT",
+    "ID":10
+},
 {
     "name":"BIET",
     "ID":2
